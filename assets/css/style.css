@@ -1,9 +1,13 @@
 body, html {
-	background-color: #EDEDED !important;	
+	background-color: #EDEDED !important;
 }
 
 .uppercase{
 	text-transform: uppercase;
+}
+
+section#portafolio{
+	background-color: #fff;
 }
 
 .row-portfolio .col .s4{
