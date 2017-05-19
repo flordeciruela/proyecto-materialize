@@ -1,5 +1,17 @@
-body, html {
+body {
 	background-color: #EDEDED !important;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+main {
+	flex: 1 0 auto;
+}
+
+section {
+	padding-top: 70px;
+	padding-bottom: 70px;
 }
 
 .uppercase{
@@ -11,7 +23,18 @@ body, html {
 }
 
 section hr {
-    width:80px ;
-    margin-bottom: 45px;
-    border: 1px solid
+  width:80px ;
+  margin-bottom: 45px;
+  border: 1px solid
+}
+
+/*contact*/
+.semibold-font * {
+	font-weight: 500;
+}
+
+#contact hr {
+  width: 40px;
+	margin-top: 10px;
+	opacity: 0.5;
 }

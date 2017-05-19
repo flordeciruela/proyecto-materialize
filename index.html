@@ -9,6 +9,7 @@
   <title>Portafolio</title>
 </head>
 <body>
+
   <section id="portafolio" class="white">
     <div class="container">
       <div class="row">
@@ -28,6 +29,82 @@
       </div>
     </div>
   </section>
+
+
+	<section class="container" id="contact">
+		<div class="row">
+			<div class="col s12 semibold-font center-align">
+				<h5>CONTACT</h5>
+				<span>GET IN TOUCH WITH ME</span>
+				<hr class="grey-text">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col m6">
+				<div class="row">
+					<form class="col s12">
+						<div class="row">
+							<div class="input-field col s6">
+								<input id="first_name" type="text" class="validate" pattern="^([A-ZÁÉÍÓÚ]{1}[a-zñáéíóú]+[\s]*)+$" title="Ingresar nombre con primera letra en mayúscula" required="Completa este campo">
+								<label for="first_name">First Name</label>
+							</div>
+							<div class="input-field col s6">
+								<input id="last_name" type="text" class="validate" pattern="^([A-ZÁÉÍÓÚ]{1}[a-zñáéíóú]+[\s]*)+$" title="Ingresar nombre con primera letra en mayúscula" required="Completa este campo">
+								<label for="last_name">Last Name</label>
+							</div>
+						</div>
+						<div class="row">
+							<div class="input-field col s12">
+								<input id="email" type="email" class="validate" required="Completa este campo">
+								<label for="email">Email</label>
+							</div>
+						</div>
+						<div class="row">
+							<div class="input-field col s12">
+								<textarea id="textarea1" class="materialize-textarea" data-length="100" required="Completa este campo"></textarea>
+								<label for="textarea1">Your Message</label>
+							</div>
+							<div class="col s12">
+								<button class="btn waves-effect waves-light" id="submit" type="submit" name="action">Submit</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="col m6">
+				<div class="row">
+					<div class="col s12 container semibold-font">
+						<div class="row">
+							<div class="col s10 push-s1">
+								<p>ADDRESS</p>
+								<span>Nr. 6, 21 Awesome Street, London, UK</span>
+							</div>
+							<div class="col s10 push-s1">
+								<p>PHONE NUMBER</p>
+								<span>+91 9912776151</span>
+							</div>
+							<div class="col s10 push-s1">
+								<p>WEBSITE</p>
+								<span>qnimate.com</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+  </section>
+	<footer class="page-footer blue-grey lighten-1">
+		<div class="container">
+			<div class="row">
+				<div class="col s6">
+					<span class="white-text">© 2014 Copyright Text</span>
+				</div>
+				<div class="col s6 right-align">
+					<span class="white-text">minombre@gmail.com</span>
+				</div>
+			</div>
+		</div>
+	</footer>
 
   <script src="assets/js/jquery-3.1.1.min.js" charset="utf-8"></script>
   <script src="assets/js/materialize.js" charset="utf-8"></script>
