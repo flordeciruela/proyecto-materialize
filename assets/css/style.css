@@ -20,3 +20,7 @@ main {
 .semibold-font * {
 	font-weight: 500;
 }
+ .bord {
+	 border-bottom: 1px solid gray;
+	 width: 4%;
+ }
