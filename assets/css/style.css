@@ -1,11 +1,11 @@
 body, html {
-	background-color: #EDEDED !important;
+	background-color: #EDEDED !important;	
 }
 
-div.row-portfolio{
-	margin-bottom: 0;
+.uppercase{
+	text-transform: uppercase;
 }
 
-.row-portfolio .col{
+.row-portfolio .col .s4{
 	padding: 0;
 }

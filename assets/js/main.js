@@ -17,3 +17,6 @@
 //     console.log(modalImg.src);
 //     }
 // });
+$(document).ready(function(){
+ $('.materialboxed').materialbox();
+});
