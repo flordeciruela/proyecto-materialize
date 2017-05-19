@@ -1,3 +1,23 @@
-body, html {
-	background-color: #EDEDED !important;
+body {
+	background-color: #EDEDED ;
+}
+header{
+	height: 461px;
+}
+@media {
+	.alto{
+				    bottom: 298px;
+						height: 107vh !important;
+						width: 100%;
+			}
+}
+
+.centro{
+	top: 114px;
+position: relative;
+}
+@media (min-width: 769px){
+	.alto{
+						height:99vh ;
+			}
 }

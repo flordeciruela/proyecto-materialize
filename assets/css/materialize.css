@@ -2105,7 +2105,8 @@ video.responsive-video {
 .parallax-container {
   position: relative;
   overflow: hidden;
-  height: 500px; }
+  height: 100%;
+padding: 0}
 
 .parallax {
   position: absolute;
@@ -2115,9 +2116,10 @@ video.responsive-video {
   bottom: 0;
   z-index: -1; }
   .parallax img {
-    display: none;
+    display:block;
     position: absolute;
     left: 50%;
+    height: 100vh;
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
