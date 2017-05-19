@@ -14,24 +14,25 @@ section {
 	padding-bottom: 70px;
 }
 
-section hr {
-  width:80px;
-  margin-bottom: 45px;
-  border: 1px solid;
-}
-
 .uppercase{
 	text-transform: uppercase;
 }
+
+section hr {
+  width: 40px;
+	margin-top: 10px;
+	opacity: 0.5;
+}
+
 /*header*/
 header{
 	height:100vh ;
 }
 @media {
 	.alto{
-				    bottom: 298px;
-						height: 107vh;
-						width: 100%;
+		bottom: 298px;
+		height: 107vh;
+		width: 100%;
 			}
 }
 
@@ -47,6 +48,7 @@ header{
 		background-position: center;
 	}
 }
+
 @media (min-width: 768px){
 	.image{
 		position: relative;
@@ -96,10 +98,4 @@ header{
 /*contact*/
 .semibold-font * {
 	font-weight: 500;
-}
-
-#contact hr {
-  width: 40px;
-	margin-top: 10px;
-	opacity: 0.5;
 }
