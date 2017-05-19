@@ -1,8 +1,5 @@
-body, html {
-	background-color: #EDEDED !important;
-}
-
 body {
+	background-color: #EDEDED !important;
 	display: flex;
 	min-height: 100vh;
 	flex-direction: column;
@@ -20,7 +17,9 @@ main {
 .semibold-font * {
 	font-weight: 500;
 }
- .bord {
-	 border-bottom: 1px solid gray;
-	 width: 2%;
- }
+#contact hr {
+    width: 40px;
+		margin-top: 10px;
+    border: 1px solid;
+		opacity: 0.5;
+}
