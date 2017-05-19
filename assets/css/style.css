@@ -23,6 +23,57 @@ section hr {
 .uppercase{
 	text-transform: uppercase;
 }
+/*header*/
+header{
+	height:100vh ;
+}
+@media {
+	.alto{
+				    bottom: 298px;
+						height: 107vh;
+						width: 100%;
+			}
+}
+
+@media (min-width: 320px){
+	.image{
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-image: url(../img/bg.jpg);
+		background-size:215% 148vh;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+}
+@media (min-width: 768px){
+	.image{
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		bottom: 29px;
+		background-image: url(../img/bg.jpg);
+		background-size: 100% 100vh;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+}
+
+@media (min-width: 601px){
+	.image{
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		bottom: 29px;
+		background-image: url(../img/bg.jpg);
+		background-size: 108% 100vh;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+}
 
 /*Portafolio*/
 .row-portfolio .col .s4{
