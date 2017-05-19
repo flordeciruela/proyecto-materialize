@@ -9,3 +9,9 @@ body, html {
 .row-portfolio .col .s4{
 	padding: 0;
 }
+
+section hr {
+    width:80px ;
+    margin-bottom: 45px;
+    border: 1px solid
+}
