@@ -4,13 +4,44 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/materialize.css">
+  <link rel="stylesheet" href="assets/css/materialize.css">
+  <link rel="stylesheet" href="assets/css/style.css">
   <title>Portafolio</title>
 </head>
 <body>
-  <script src="js/jquery-3.1.1.min.js" charset="utf-8"></script>
-  <script src="js/materialize.js" charset="utf-8"></script>
-  <script src="js/main.js" charset="utf-8"></script>
+  <section id="portafolio">
+    <div class="container">
+      <div class="row">
+        <h2 class="col s4 center offset-s4">Portfolio</h2>
+        <h4 class="col s4 center offset-s4">My lastest proyects</h4>
+      </div>
+      <div class="row row-portfolio">
+        <div class="col s12">
+          <img class="responsive-img materialboxed col s4" src="assets/img/consola.jpg" alt="primer proyecto" >
+          <img class="responsive-img materialboxed col s4" src="assets/img/desk-book.jpg" alt="primer proyecto" >
+          <img class="responsive-img materialboxed col s4" src="assets/img/code.jpg" alt="primer proyecto">
+        </div>
+      </div>
+      <div class="row row-portfolio">
+        <div class="col s12">
+          <img class="responsive-img materialboxed col s4" src="assets/img/girl-code.jpg" alt="primer proyecto" >
+          <img class="responsive-img materialboxed col s4" src="assets/img/desk-code.jpg" alt="primer proyecto" >
+          <img class="responsive-img materialboxed col s4" src="assets/img/img-2.jpg" alt="primer proyecto">
+        </div>
+      </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="assets/js/jquery-3.1.1.min.js" charset="utf-8"></script>
+  <script src="assets/js/materialize.js" charset="utf-8"></script>
+  <script src="assets/js/main.js" charset="utf-8"></script>
+  <script>
+    $(document).ready(function(){
+     $('.materialboxed').materialbox();
+    });
+  </script>
 </body>
 </html>
