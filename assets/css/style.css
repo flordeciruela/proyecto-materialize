@@ -6,10 +6,6 @@ body, html {
 	text-transform: uppercase;
 }
 
-section#portafolio{
-	background-color: #fff;
-}
-
 .row-portfolio .col .s4{
 	padding: 0;
 }
