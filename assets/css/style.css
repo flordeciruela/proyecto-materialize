@@ -74,7 +74,25 @@ header{
 		background-position: center;
 	}
 }
-
+/*about me*/
+.bold{
+font-weight:400;
+}
+.bold p{
+	text-align: left;
+	font-size: 15px;
+}
+.min-small{
+	max-width: 33% !important;
+	height: auto;
+}
+.largo{
+	width: 100%;
+	margin-bottom: 0;
+}
+.margen{
+	margin:11px;
+}
 /*Portafolio*/
 .row-portfolio .col .s4{
 	padding: 0;
